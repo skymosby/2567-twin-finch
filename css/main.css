@@ -1,5 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
+
+
+ul li {
+	display: inline-block;
+}
+#hero {
+	background:url(../img/hero.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#our-coffee {
+	background:url(../img/wood.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+/************from ex 4************/
+
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -7,7 +35,6 @@
 }
 .wrapper {
 	width: 75%; /*orginal width 1024*/
-	background-color: black;
 	margin: 0 auto;
 }
 .row:after {
@@ -80,7 +107,7 @@
 	width: 80%;
 }
 .col-5-6 {
-	width:83.3%;
+	width: 83.3%;
 }
 .col-3-7 {
 	width: 42.85%;
@@ -104,7 +131,7 @@
 	width: 90%;
 }
 .col-6-11 {
-	width:54.54%;
+	width: 54.54%;
 }
 .col-5-11 {
 	width: 45.45%;
@@ -116,12 +143,13 @@ img {
 	max-width: 100%;
 }
 figure {
-    display: block;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
 }
+
 @media screen and (max-width: 480px) {
 [class*='col-'] {
 	width: 100%;
