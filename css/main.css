@@ -13,11 +13,14 @@ ul li {
 	background-size: cover;
 }
 #our-coffee {
-	background:url(../img/wood.jpg) no-repeat center center fixed;
+	background:url(../img/wood.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+#map {
+	height: 200px;
 }
 
 
