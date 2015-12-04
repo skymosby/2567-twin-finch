@@ -2,8 +2,15 @@
 /* CSS Document */
 
 
-ul li {
+li {
 	display: inline-block;
+}
+nav {
+	text-align: right;
+}
+a {
+	color:white;
+	text-decoration:none;
 }
 #hero {
 	background:url(../img/hero.jpg) no-repeat center center scroll;
@@ -12,7 +19,7 @@ ul li {
 	-o-background-size: cover;
 	background-size: cover;
 }
-#our-coffee {
+#our-coffee, footer {
 	background:url(../img/wood.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -22,7 +29,33 @@ ul li {
 #map {
 	height: 200px;
 }
-
+#hero, #our-coffee {
+	color:white;
+}
+label {
+	display:none;
+}
+form inupt {
+	display: block;
+}
+#our-coffee, #bg-blue, #news {
+	padding: 75px;
+}
+#hero {
+	padding-bottom: 75px;
+}
+footer {
+	padding-top: 25px;
+}
+.social {
+	text-align: center;
+}
+#bg-blue {
+	background-color: #38858b;
+}
+h2 {
+	text-align: center;
+}
 
 
 
