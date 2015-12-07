@@ -38,8 +38,8 @@ label {
 form inupt {
 	display: block;
 }
-#our-coffee, #bg-blue, #news {
-	padding: 75px;
+#our-coffee, #bg-blue, #news, #contact .col-1-2 header {
+	padding: 5%;
 }
 #hero {
 	padding-bottom: 75px;
@@ -53,11 +53,18 @@ footer {
 #bg-blue {
 	background-color: #38858b;
 }
-h2 {
+h1, h2 {
 	text-align: center;
 }
-
-
+nav ul li a {
+	margin: 5px;
+}
+header .social {
+	padding-top: 30px;
+}
+ul {
+	padding-left: 0;
+}
 
 
 
@@ -93,7 +100,6 @@ h2 {
 }
 [class*='col-'] div {
 	height: 200px;
-	background-color: green;
 }
 .col-1 {
 	width: 100%;
@@ -191,4 +197,24 @@ figure {
 	width: 100%;
 	padding: 0 0 20px 0;
 }
+.wrapper {
+	width: 98%;
+}
+section {
+	padding: 2%;
+}
+#our-coffee img {
+	width: 100%;
+}
+nav ul {
+	text-align:center;
+}
+#our-coffee img {
+	margin-top: 30px;
+}
+form {
+	display: block;
+}
+
+
 }
