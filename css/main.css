@@ -21,14 +21,11 @@ h1, h2 {
 html {
 	font-family: 'Quicksand', sans-serif;
 }
-h1, h2, h3, header p, button, .button, header p, h1 {
+h1, h2, h3, header p, button, .button, header p, h1, #call-out {
 	text-transform: uppercase;
 }
-header p {
+header p, blockquote {
 	font-size: 1.2rem;
-}
-h3 {
-	
 }
 
 li {
@@ -37,24 +34,36 @@ li {
 nav {
 	text-align: right;
 }
-a {
+a, #hero, #our-coffee, #bg-blue, #map-text h2, #map-text p, .button, button {
 	color:white;
 	text-decoration:none;
 }
 h2 {
 	font-size: 3rem;
 }
-#house h3 {
+#house h3, #call-out {
 	font-size: 1.5rem;
 }
 .col-1-4 p, #house p {
 	font-weight:100;
 }
 
-form, #bg-blue {
+form, #bg-blue, #review, #map-text, .social, h1, h2, .txt-center {
 	text-align: center;
 }
+#call-out  {
+	font-weight: 800;
+}
+blockquote {
+	font-style:italic;
+}
+#news h2 {
+	color: #8b3a38;
+}
 /*~~~~~~~~~~~~~~~~~~~~~Floats~~~~~~~~~~~~~~~~~~~~~*/
+.col-2-3 {
+	float: right !important;
+}
 /*~~~~~~~~~~~~~~~~~~~~~Margins and Padding~~~~~~~~~~~~~~~~~~~~~*/
 h2 {
 	margin-top: 0;
@@ -65,32 +74,75 @@ h2 {
 .button {
 	margin: 0 auto;
 }
-form input, form textarea {
+form input, form textarea, .button, button {
 	padding: 10px 20px;
+}
+#bg-blue h3 {
+	margin-bottom: 0;
+}
+nav {
+	margin-top: 30px;
+}.col-1-4 a, .col-1-3 a {
+	padding: 5px 30px;
+}
+
+#our-coffee, #bg-blue, #news, #contact .col-1-2 header {
+	padding: 5%;
+}
+#hero {
+	padding-bottom: 75px;
+}
+footer {
+	padding-top: 25px;
+}
+nav ul li a {
+	margin: 5px;
+}
+header .social {
+	padding-top: 30px;
+}
+ul {
+	padding-left: 0;
+}
+#map-text {
+	margin-top: 41px;
+}
+#map-col {
+	padding-bottom: 0;
 }
 /*~~~~~~~~~~~~~~~~~~~~~Dimensions~~~~~~~~~~~~~~~~~~~~~*/
 #map {
-	height: 832px;
+	height: 780px;
 }
 /*~~~~~~~~~~~~~~~~~~~~~Images and backgrounds~~~~~~~~~~~~~~~~~~~~~*/
 #hero {
-	background:url(../../../../../Git%20Hub/2567-twin-finch/img/hero.jpg) no-repeat center center scroll;
+	background:url(../img/hero.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 #our-coffee, footer {
-	background:url(../../../../../Git%20Hub/2567-twin-finch/img/wood.jpg) no-repeat center center scroll;
+	background:url(../img/wood.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-#map-text h2, #map-text p {
-	background-color: rgba(139, 58, 56, 0.6);
-	color: white;
+#map-text {
+	background-color: rgba(56, 133, 139, 0.6);
 	padding: 20px;
+}
+.col-1-4 img, .col-1-3 img {
+	width: 80%;
+}.button, button, .col-1-4 a:hover, .col-1-3 a:hover {
+	background-color: #8b3a38;
+}
+.button:hover, button:hover, .col-1-4 a, .col-1-3 a {
+	background-color: #6cd0d8;
+}
+#contact {
+	background-color: #38858b;
 }
 /*~~~~~~~~~~~~~~~~~~~~Positioning and Display-type~~~~~~~~~~~~~~~~~~~~~*/
 #bg-blue form input, #bg-blue form textarea, #bg-blue button {
@@ -104,29 +156,9 @@ form input, form textarea {
 #map-text {
 	position: absolute; top: 0; left:90px; z-index:20;
 	width: 70%;
-	text-align: center;	
 }
-/*~~~~~~~~~~~~~~~~~~~~Anchors and states~~~~~~~~~~~~~~~~~~~~~*/
-li a:hover {
-	opacity: .6;
-}
-.button, button {
-	padding: 10px 20px;
-	border: none;
-	color: white;
-}
-.button, button, .col-1-4 a:hover, .col-1-3 a:hover {
-	background-color: #8b3a38;
-}
-.button:hover, button:hover, .col-1-4 a, .col-1-3 a {
-	background-color: #6cd0d8;
-}
-.col-1-4 a, .col-1-3 a {
-	padding: 5px 30px;
-}
-
-#hero, #our-coffee {
-	color:white;
+.txt-center {
+	margin-top: 30px;
 }
 label {
 	display:none;
@@ -134,33 +166,15 @@ label {
 form inupt {
 	display: block;
 }
-#our-coffee, #bg-blue, #news, #contact .col-1-2 header {
-	padding: 5%;
+/*~~~~~~~~~~~~~~~~~~~~Anchors and states~~~~~~~~~~~~~~~~~~~~~*/
+li a:hover {
+	opacity: .6;
 }
-#hero {
-	padding-bottom: 75px;
+.button, button {
+	border: none;
 }
-footer {
-	padding-top: 25px;
-}
-.social {
-	text-align: center;
-}
-#bg-blue {
-	background-color: #38858b;
-}
-h1, h2 {
-	text-align: center;
-}
-nav ul li a {
-	margin: 5px;
-}
-header .social {
-	padding-top: 30px;
-}
-ul {
-	padding-left: 0;
-}
+
+
 
 
 
@@ -302,18 +316,33 @@ section {
 #our-coffee img {
 	width: 100%;
 }
-nav ul {
+nav ul, input, button, .col-1-5 {
 	text-align:center;
 }
 #our-coffee img {
 	margin-top: 30px;
 }
-form {
+form, input, button {
 	display: block;
 }
 #map {
-	width: 80%;
+	height: 400px;
+}
+input, button {
+	margin: 10px auto;
+}
+h1 {
+	font-size: 2.75rem;
+}
+header p {
+	font-size: 1.2 rem;
 }
 
+h2 {
+	font-size: 1.75rem;
+}
+h3 {
+	font-size: 1rem;
+}
 
 }
