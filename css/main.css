@@ -34,7 +34,7 @@ li {
 nav {
 	text-align: right;
 }
-a, #hero, #our-coffee, #bg-blue, #map-text h2, #map-text p, .button, button {
+a, #hero, #our-coffee, #bg-blue, #map-text h2, #map-text p, .button, button, #bg-blue form input {
 	color:white;
 	text-decoration:none;
 }
@@ -48,7 +48,7 @@ h2 {
 	font-weight:100;
 }
 
-form, #bg-blue, #review, #map-text, .social, h1, h2, .txt-center {
+form, #bg-blue, #review, #map-text, .social, h1, h2, .txt-center, textarea {
 	text-align: center;
 }
 #call-out  {
